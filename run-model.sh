@@ -1,0 +1,1 @@
+java -cp "stanford/deps/*" edu.stanford.nlp.pipeline.StanfordCoreNLP -Xmx2g -sup.relation.model /Users/jenniewerner/Desktop/NLP_Project/tmp/roth_relation_model_pipeline.ser -annotators tokenize,ssplit,pos,lemma,ner,parse,dcoref,relation
